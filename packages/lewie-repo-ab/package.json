@@ -7,5 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lewie-repo-a": "1.0.0",
+    "lewie-repo-b": "1.0.0"
+  }
 }
