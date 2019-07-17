@@ -1,6 +1,3 @@
-[submodule "packages/lewie-repo-a"]
-	path = packages/lewie-repo-a
-	url = https://github.com/lewismoten/lewie-repo-a.git
 [submodule "packages/lewie-repo-b"]
 	path = packages/lewie-repo-b
 	url = https://github.com/lewismoten/lewie-repo-b.git
