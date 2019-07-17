@@ -16,7 +16,6 @@
     "url": "https://github.com/lewismoten/lewie-lerna-all/issues"
   },
   "homepage": "https://github.com/lewismoten/lewie-lerna-all#readme",
-  "devDependencies": {
-    "lerna": "^3.15.0"
-  }
+  "devDependencies": {},
+  "dependencies": {}
 }
