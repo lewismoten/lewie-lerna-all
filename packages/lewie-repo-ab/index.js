@@ -6,3 +6,4 @@ console.log("B says", b());
 console.log("Moo!");
 console.log("Hey cow... get out of here!");
 console.log("okay :(");
+console.log("Hurry up");
