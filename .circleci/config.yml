@@ -13,9 +13,9 @@ jobs:
             - dependency-cache
       - run: npm ci
       - save_cache:
-        key: dependency-cache
-        paths:
-          - ./node_modules
+          key: dependency-cache
+          paths:
+            - ./node_modules
       - run: npm i lerna -g
       - run: npm run setup
       - run: npm run publish
