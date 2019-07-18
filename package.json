@@ -4,7 +4,9 @@
   "description": "lewie-lerna-all",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "lerna bootstrap",
+    "publish": "lerna publish prepatch --yes"
   },
   "repository": {
     "type": "git",
