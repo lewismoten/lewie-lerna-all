@@ -16,7 +16,6 @@ jobs:
           key: dependency-cache
           paths:
             - ./node_modules
-      - run: npm i lerna -g
       - run: npm run setup
       - run: npm run publish
 workflows:
