@@ -35,3 +35,5 @@ Publish all packages
 - push to git
 - publish to npm
   `lerna publish prepatch --yes`
+
+touch 1
