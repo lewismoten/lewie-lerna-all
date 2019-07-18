@@ -7,3 +7,4 @@ console.log("Moo!");
 console.log("Hey cow... get out of here!");
 console.log("okay :(");
 console.log("Hurry up");
+console.log("Am I really a cow?");
