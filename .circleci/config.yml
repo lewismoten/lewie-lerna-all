@@ -1,0 +1,25 @@
+defaults: &defaults
+  working_directory: ~/repo
+  docker:
+    - image: circleci/node
+jobs:
+  publish:
+    <<: *defaults
+    steps:
+      - checkout
+      - run: sudo npm install -g npm@latest
+      - restore_cache:
+        key: dependency-cache
+      - run: npm ci
+      - save_cache:
+        key: dependency-cache
+        paths:
+          - ./node_modules
+      - run: npm i lerna -g
+      - run: npm run setup
+      - run: npm run publish
+workflows:
+  version: 2
+  publish:
+    jobs:
+      - publish
