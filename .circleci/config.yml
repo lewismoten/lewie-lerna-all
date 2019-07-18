@@ -9,7 +9,8 @@ jobs:
       - checkout
       - run: sudo npm install -g npm@latest
       - restore_cache:
-        key: dependency-cache
+        keys:
+          - dependency-cache
       - run: npm ci
       - save_cache:
         key: dependency-cache
