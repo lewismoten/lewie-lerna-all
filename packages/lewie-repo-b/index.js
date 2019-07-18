@@ -1,4 +1,4 @@
 function bar() {
-  return "HEWOAH MARS 4";
+  return "HEWOAH MARS 5";
 }
 module.exports = bar;
