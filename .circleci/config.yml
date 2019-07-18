@@ -19,7 +19,7 @@ jobs:
       - run: npm run setup
       - run: git config user.name "Lewis Moten"
       - run: git config user.email "lewismoten@gmail.com"
-      - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
+      - run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
       - run: npm whoami
       - run: npm run publish
 workflows:
