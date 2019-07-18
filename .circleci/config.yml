@@ -1,7 +1,7 @@
 defaults: &defaults
   working_directory: ~/repo
   docker:
-    - image: circleci/node:9.0.0
+    - image: circleci/node:lts
 jobs:
   publish:
     <<: *defaults
