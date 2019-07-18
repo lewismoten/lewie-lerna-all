@@ -1,4 +1,4 @@
 function foo() {
-  return "HELO WORLD";
+  return "HELO WORLD 2";
 }
 module.exports = foo;
