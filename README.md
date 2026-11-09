@@ -1,6 +1,6 @@
 # lewie-lerna-all
 
-A Lerna monorepo of small npm packages (see `packages/`).
+A Lerna monorepo for trying out publishing several npm packages together (sample packages are in `packages/`).
 
 Notes on how I set it up:
 
