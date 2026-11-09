@@ -1,16 +1,20 @@
-lewie-lerna-all
+# lewie-lerna-all
+
+A Lerna monorepo of small npm packages (see `packages/`).
+
+Notes on how I set it up:
 
 `npm install lerna -g`
 
-Setup symlinks in packages
+Set up symlinks in packages
 `lerna bootstrap`
 or
 `lerna bootstrap --hoist`
 
-Login to npm
+Log in to npm
 `npm login`
 
-update ssh config
+Update the ssh config
 `nano ~/.ssh/config`
 
 ```
@@ -20,7 +24,7 @@ Host github-lewismoten
   IdentityFile ~/.ssh/lewismoten_rsa
 ```
 
-update `./.git/config` origin to use custom ssh user
+Update `./.git/config` origin to use the custom ssh user
 
 ```
 [remote "origin"]
@@ -36,4 +40,4 @@ Publish all packages
 - publish to npm
   `lerna publish prepatch --yes`
 
-touch 1
+Status: from 2019, not maintained.
