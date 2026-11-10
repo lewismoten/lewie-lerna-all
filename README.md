@@ -1,3 +1,5 @@
+![lewie-lerna-all: Lerna monorepo of sample npm packages](docs/images/social-preview.png)
+
 # lewie-lerna-all
 
 A Lerna monorepo for trying out publishing several npm packages together (sample packages are in `packages/`).
